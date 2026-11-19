@@ -1,4 +1,4 @@
-num = float(input("Enter a positive decimal number: "))
+num = float(input("Enter a positive number: "))
 tnum = num
 
 if num == 0:
