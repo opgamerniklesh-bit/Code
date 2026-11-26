@@ -6,7 +6,7 @@ while lives > 0:
     if plynum == 12:
         print ("You WIN!!!")
         break
-    elif plynum == 11 or 13:
+    elif plynum == 11 or plynum == 13:
         print ("Hot")
     elif plynum in range(7,10) or range(14,17):
         print ("Warm")
