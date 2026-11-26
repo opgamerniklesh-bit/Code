@@ -3,6 +3,7 @@ lives = 5
 
 while lives > 0:
     plynum = int(input("Enter a number from 1 to 50 to get a secret number!"))
+    print ("You have five tries!")
     if plynum == 12:
         print ("You WIN!!!")
         break
